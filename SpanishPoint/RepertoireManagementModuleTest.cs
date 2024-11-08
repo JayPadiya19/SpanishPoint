@@ -31,7 +31,7 @@ namespace SpanishPoint
             
             repertoireManagementModule.ScrollUsingJavaScript(150);
 
-            bool verifyMessage = repertoireManagementModule.verifyProductSupport("There are several types of Product Supported:");
+            bool verifyMessage = repertoireManagementModule.VerifyProductSupport("There are several types of Product Supported:");
             //Step 6 Assert on the list of supported products under the heading ‘There are several types of Product Supported:
             Assert.IsTrue(verifyMessage, "There are several types of Product Supported verify successfull");
 
