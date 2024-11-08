@@ -51,7 +51,7 @@ namespace SpanishPoint.Pages
      /// </summary>
      /// <param name="expectValue"></param>
      /// <returns>return true if it is validate successfull else false</returns>
-        public bool verifyProductSupport(string expectValue)
+        public bool VerifyProductSupport(string expectValue)
         {
             //Wait untill element load
             for (int i = 0; i < 20; i++)
