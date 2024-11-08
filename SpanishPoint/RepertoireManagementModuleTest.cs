@@ -23,7 +23,7 @@ namespace SpanishPoint
             //Step 2 Expand ‘Modules’ in the header section
             engine.MoveToModules();
             //Step 3 Click ‘Repertoire Management Module’ from the menu
-            engine.RepertoireManagementModule.Click();
+            engine.repertoireManagementModule.Click();
             //Step 4 Scroll to the ‘Additional Features’ section
             repertoireManagementModule.ScrollUsingJavaScript(1500);
             //Step 5 Click ‘Products Supported’
